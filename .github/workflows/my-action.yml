@@ -8,6 +8,6 @@ on: [push]
 jobs:
     #job to print something out
     say-hello:
-    runs-on: ubuntu-latest
-    steps:
-        - run: echo "Hello, github actions!"
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Hello, github actions!"
